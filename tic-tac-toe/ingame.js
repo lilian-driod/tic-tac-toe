@@ -34,6 +34,7 @@ const handleClick = (e) => {
   
     board[id] = currentPlayer;
     e.target.textContent = currentPlayer;
+    
     e.target.classList.add(currentPlayer); // for styling
   
     const winner = checkWinner();
